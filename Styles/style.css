@@ -286,6 +286,7 @@ body {
     margin-top: 80px;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .discription-1 {
@@ -502,6 +503,7 @@ body {
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
+    cursor: pointer;
 
 }
 
@@ -520,4 +522,55 @@ body {
     /* background-image: inherit; */
     /* margin-left: 50%; */
 
+}
+
+/* exercise section styles */
+.exercise {
+    width: 100rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.discription-equepment {
+    width: 1044px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* border: 2px solid red; */
+    margin: 58px 0px;
+}
+
+.discription-equepment>h2 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    color: white;
+}
+.discription-equepment>p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.equipment-pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.equipment-pic>img{
+    width: 500px;
+height: 256px;
+/* border: 2px solid red; */
+box-shadow: -14px -8px 21px -5px rgb(126, 99, 199);
 }
