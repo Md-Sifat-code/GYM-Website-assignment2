@@ -39,4 +39,29 @@
         left: 294.2px;
         top: 676.6px;
     }
+
+    .Change-main {
+        margin-left: 0px;
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: auto;
+    }
+
+    .change-pic {
+        grid-template-columns: 1fr;
+        margin-top: 58px;
+    }
+
+    .change-disc {
+        margin-left: 80px;
+        width: 450px;
+        height: auto;
+        /* border: 2px solid red; */
+    }
+    .change-disc>h1{
+        /* font-size: 32px; */
+    }
+    .circle{
+        margin-top: 36px;
+    }
 }

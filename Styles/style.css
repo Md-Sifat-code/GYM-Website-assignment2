@@ -30,7 +30,7 @@ body {
     grid-template-columns: 1fr;
     width: 100%;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -227,4 +227,83 @@ body {
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
+}
+
+/* Habit Part CSS   */
+.Habit {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.Change-main {
+    width: 1044px;
+    height: 452px;
+    margin-left: 198px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.change-disc {
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 186.5px;
+}
+
+.change-disc>h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+
+}
+
+.change-disc>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+
+}
+
+.change-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 58px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle>img {
+    /* width: 272px;
+height: 180px; */
+    border-radius: 50%;
+}
+
+.circle>h6 {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.circle>p {
+    color: #ffffff80;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
 }
