@@ -1,0 +1,230 @@
+/* Font Styles */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* overall styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Header Part Styles */
+.heading-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    margin-top: 57px;
+    margin-left: 190px;
+}
+
+.logo>h1 {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-bar {
+    margin-right: 190px;
+    margin-top: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar>nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 465px;
+    height: 46px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+
+.nav-bar>img {
+    display: none;
+}
+
+.nav-bar>nav>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+#home {
+    color: white;
+    border-radius: 46px;
+    width: 92px;
+    height: 38px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.hero-discription {
+    width: 520px;
+    height: 282px;
+    margin-left: 190px;
+    margin-top: 98px;
+}
+
+.hero-discription>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+
+}
+
+.hero-discription>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+.btn-hero {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 28px;
+}
+
+.btn-hero>button {
+    width: 224px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+
+.btn-hero>button>a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Hero BG part */
+#picture-hero {
+    position: relative;
+
+}
+
+#tutorial {
+    border: 2px solid red;
+    width: 206px;
+    height: 96px;
+    position: absolute;
+    left: 800px;
+    top: 556px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#tutorial>.empty {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 42px;
+}
+
+#elements>h6 {
+    color: white;
+
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#elements>p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#free {
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1150px;
+    top: 260px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#free>h6 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+#free>p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+}

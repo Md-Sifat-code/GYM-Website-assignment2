@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 50px;
+    }
+
+    .nav-bar>nav {
+        display: none;
+    }
+
+    .nav-bar>img {
+        display: block;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-discription {
+        margin-left: 50px;
+    }
+
+    .nav-bar {
+        margin-right: 50px;
+    }
+
+    .Hero-bg {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tutorial {
+        left: 32px;
+        top: 1000.38px;
+    }
+
+    #free {
+        left: 294.2px;
+        top: 676.6px;
+    }
+}
