@@ -387,3 +387,195 @@ background-position-y: center; */
 
 
 }
+
+/* BMI calculator part */
+.BMI-calc {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}
+
+.BMI_disc {
+    width: 671px;
+    height: 120px;
+    margin-left: 384.5px;
+    /* border: 2px solid red; */
+}
+
+.BMI_disc>h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.BMI_disc>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+}
+
+.Main-BMI {
+    width: 100%;
+    height: auto;
+    background: rgb(34, 34, 34);
+    margin-top: 88px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table-part {
+    margin-left: 189px;
+    width: 310px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.table-part>h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+    margin-top: 52px;
+}
+
+/* Table CSS */
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #dededf;
+    height: 216px;
+    width: 310px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px solid #ffffff80;
+    /* background-color: #eceff1; */
+    color: white;
+    padding: 5px;
+}
+
+.table_component td {
+    border: 1px solid #ffffff80;
+    /* background-color: #ffffff; */
+    color: #ffffff80;
+    padding: 5px;
+}
+
+.BMI {
+    /* width: 577px; */
+    width: auto;
+    height: 386px;
+    margin-top: 49px;
+    margin-left: 175px;
+    margin-right: 189px;
+    /* border: 2px solid red; */
+}
+
+.BMI>h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+
+.BMI>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.select-part {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 34px;
+}
+
+.upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.upper>input {
+    width: 282.5px;
+    height: 48px;
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+
+.upper>#S {
+    width: 289px;
+    height: 48px;
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    color: rgb(230, 83, 60);
+}
+.upper>#S>option{
+    color: rgb(255, 255, 255);
+    /* background: transparent; */
+    background-color:black;
+}
+.lower{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 12px;
+}
+
+.lower>#A{
+    
+    height: 48px;
+    border-radius: 8px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    color: rgb(230, 83, 60);
+}
+.BMI>button{
+    margin-top: 34px;
+    width: 224px;
+height: 54px;
+border-radius: 42px;
+
+background: rgb(230, 83, 60);
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.BMI>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}

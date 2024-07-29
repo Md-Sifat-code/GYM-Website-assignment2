@@ -64,4 +64,47 @@
     .circle{
         margin-top: 36px;
     }
+    .run-main{
+     width: 530px;;
+        height: auto;
+        margin-left: 20px;
+        grid-template-columns: 1fr;
+
+    }
+    .run-disc{
+        margin-left: 80px;
+        width: 366px;
+        height: auto;
+        /* border: 2px solid red; */
+    }
+    .run-pic{
+        margin-left: 80px;
+        /* border: 2px solid blue; */
+    }
+    .BMI_disc{
+        margin-left: 50px;
+        width: 353px;
+        height: auto;
+    }
+    .Main-BMI{
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+    .table-part{
+        margin-left: 100px;
+    }
+    .BMI{
+        margin-left: 50px;
+        width: 454px;
+        /* border: 2px soli    d red; */
+        height: auto;
+    }
+    .upper>input{
+        width: auto;
+    }
+    .upper>#S{
+        width: auto;
+    }
+         
 }
