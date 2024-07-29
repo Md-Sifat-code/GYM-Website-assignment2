@@ -307,3 +307,83 @@ height: 180px; */
     text-align: center;
     margin-top: 6px;
 }
+
+/* Run Part Styles */
+.Run {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.run-main {
+    width: 1060px;
+    height: 371px;
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+    margin-left: 190px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.run-disc {
+    width: 443px;
+    height: 290px;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 41px;
+    margin-left: 54px;
+}
+
+.run-disc>h1 {
+
+    font-size: 48px;
+    color: white;
+}
+
+.run-disc>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.run-disc>button {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    margin-top: 34px;
+}
+
+.run-disc>button>a {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.run-pic {
+    /* background: url(../images/run.jpg); */
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-right: 32px;
+    margin-top: 30px;
+    margin-left: 165px;
+    /* background-position: center;
+ background-position-x: center;
+background-position-y: center; */
+    /* background-image: ; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+.run-pic>img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+
+
+}
