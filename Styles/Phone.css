@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .logo {
         margin-left: 50px;
     }
@@ -197,6 +197,39 @@
     }
     .extras6{
         top: 6680px;
+    }
+    .foot-main{
+        margin-left: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .foot-disc{
+        grid-template-columns: 1fr;
+        width: 100%;
+        /* border: 2px solid red; */
+        width: 353px;
+    }
+    .part-1{
+        width: 317px;
+        /* border: 2px solid red; */
+    }
+    .part-2{
+        margin-left: 20px;
+        width: 317px;
+        /* border: 2px solid red; */
+    }
+    .part-3{
+        margin-left: 20px;
+        width: 317px;
+        /* border: 2px solid red; */
+    }
+    .foot-main>hr{
+        width: 90%;
+        width: 504px;
+    }
+    .foot-last{
+        width: 500px;
+        /* border: 2px solid red; */
     }
 
 }
