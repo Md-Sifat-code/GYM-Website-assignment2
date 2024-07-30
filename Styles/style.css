@@ -538,19 +538,21 @@ background-position-y: center; */
     padding: 0px 0px 0px 10px;
     color: rgb(230, 83, 60);
 }
-.upper>#S>option{
+
+.upper>#S>option {
     color: rgb(255, 255, 255);
     /* background: transparent; */
-    background-color:black;
+    background-color: black;
 }
-.lower{
+
+.lower {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 12px;
 }
 
-.lower>#A{
-    
+.lower>#A {
+
     height: 48px;
     border-radius: 8px;
 
@@ -562,20 +564,212 @@ background-position-y: center; */
     padding: 0px 0px 0px 10px;
     color: rgb(230, 83, 60);
 }
-.BMI>button{
+
+.BMI>button {
     margin-top: 34px;
     width: 224px;
-height: 54px;
-border-radius: 42px;
+    height: 54px;
+    border-radius: 42px;
 
-background: rgb(230, 83, 60);
-border: none;
-display: flex;
-justify-content: center;
-align-items: center;
+    background: rgb(230, 83, 60);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.BMI>button>a{
+
+.BMI>button>a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+}
+
+/* Meet part CSS */
+.Meet {
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    width: 100%;
+    height: auto;
+    margin-top: 88px;
+}
+
+.meet-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1060px;
+    height: 782px;
+    margin-left: 190px;
+    /* border: 2px solid red; */
+
+}
+
+.meet-disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 194.5px;
+    width: 671px;
+    height: 120px;
+    /* border: 2px solid blue; */
+}
+
+.meet-disc>h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.meet-disc>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.meet-pic {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.meet-pic>div {
+    width: 326.67px;
+    height: 272px;
+}
+
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4,
+.pic-5,
+.pic-6 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    position: relative;
+
+}
+
+.pic-1>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+}
+
+.pic-2>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+}
+
+.pic-3>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+}
+
+.pic-4>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+}
+
+.pic-5>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+}
+
+.pic-6>img {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+
+
+}
+.extras1{
+    position: absolute;
+    top: 2940px;
+    
+}
+.extras1>h1{
+    color: white;
+    
+}
+.extras1>p{
+    color:#dededf;
+}
+/* 2 */
+.extras2{
+    position: absolute;
+    top: 2940px;
+    
+}
+.extras2>h1{
+    color: white;
+    
+}
+.extras2>p{
+    color:#dededf;
+}
+/* 3 */
+.extras3{
+    position: absolute;
+    top: 2940px;
+    
+}
+.extras3>h1{
+    color: white;
+    
+}
+.extras3>p{
+    color:#dededf;
+}
+/* 4 */
+.extras4{
+    position: absolute;
+    top: 3250px;
+    
+}
+.extras4>h1{
+    color: white;
+    
+}
+.extras4>p{
+    color:#dededf;
+}
+/*  */
+.extras5{
+    position: absolute;
+    top: 3250px;
+    
+}
+.extras5>h1{
+    color: white;
+    
+}
+.extras5>p{
+    color:#dededf;
+}
+.extras6{
+    position: absolute;
+    top: 3250px;
+    
+}
+.extras6>h1{
+    color: white;
+    
+}
+.extras6>p{
+    color:#dededf;
 }

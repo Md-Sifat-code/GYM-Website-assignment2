@@ -58,53 +58,145 @@
         height: auto;
         /* border: 2px solid red; */
     }
-    .change-disc>h1{
+
+    .change-disc>h1 {
         /* font-size: 32px; */
     }
-    .circle{
+
+    .circle {
         margin-top: 36px;
     }
-    .run-main{
-     width: 530px;;
+
+    .run-main {
+        width: 530px;
+        ;
         height: auto;
         margin-left: 20px;
         grid-template-columns: 1fr;
 
     }
-    .run-disc{
+
+    .run-disc {
         margin-left: 80px;
         width: 366px;
         height: auto;
         /* border: 2px solid red; */
     }
-    .run-pic{
+
+    .run-pic {
         margin-left: 80px;
         /* border: 2px solid blue; */
     }
-    .BMI_disc{
+
+    .BMI_disc {
         margin-left: 50px;
         width: 353px;
         height: auto;
     }
-    .Main-BMI{
+
+    .Main-BMI {
         width: 100%;
         height: auto;
         grid-template-columns: 1fr;
     }
-    .table-part{
+
+    .table-part {
         margin-left: 100px;
     }
-    .BMI{
+
+    .BMI {
         margin-left: 50px;
         width: 454px;
         /* border: 2px soli    d red; */
         height: auto;
     }
-    .upper>input{
+
+    .upper>input {
         width: auto;
     }
-    .upper>#S{
+
+    .upper>#S {
         width: auto;
     }
-         
+
+    .Meet {
+        height: auto;
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .meet-main {
+        margin-left: 40px;
+        width: 500px;
+        height: auto;
+    }
+
+    .meet-disc {
+        margin-left: 0;
+        width: 359px;
+        margin-left: 70px;
+        /* text-align: center; */
+
+    }
+
+    .meet-pic {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .meet-pic>div {
+        width: 455px;
+        /* border: 2px solid blue; */
+        height: auto;
+        margin: 15px;
+    }
+
+    .pic-1,
+    .pic-2,
+    .pic-3,
+    .pic-4,
+    .pic-5,
+    .pic-6 {
+        width: 100%;
+    }
+    .pic-1>img{
+        width: 100%;
+    }
+    .pic-2>img{
+        width: 100%;
+    }
+    .pic-3>img{
+        width: 100%;
+    }
+    .pic-4>img{
+        width: 100%;
+    }
+    .pic-5>img{
+        width: 100%;
+    }
+    .pic-6>img{
+        width: 100%;
+        /* background-position: center; */
+    }
+    .extras1{
+        top: 5170px;
+    }
+    .extras2{
+        top: 5470px;
+    }
+    .extras3{
+        top: 5770px;
+    }
+    .extras4{
+        top: 6070px;
+    }
+    .extras5{
+        top: 6370px;
+    }
+    .extras6{
+        top: 6680px;
+    }
+
 }
