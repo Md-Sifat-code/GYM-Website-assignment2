@@ -869,3 +869,37 @@ margin-left: 102px;
     align-items: center;
     color:rgb(230, 83, 60) ;
 }
+.Challange{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
+}
+.challange-disc{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.challange-disc>h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.challange-pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: -500px; */
+    width: 650px;
+    height: 650px;
+    margin-left: 410px;
+    margin-top: 50px;
+    
+
+}
+.challange-pic>img{
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 10px -10px 100px 1px red;
+}

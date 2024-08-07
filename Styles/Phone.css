@@ -231,5 +231,18 @@
         width: 500px;
         /* border: 2px solid red; */
     }
+    .Challange{
+        width: 100%;
+    }
+    .challange-disc{
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .challange-pic{
+        grid-template-columns: 1fr;
+        width: fit-content;
+        height: 100%;
+        margin-left: 150px;
+    }
 
 }
